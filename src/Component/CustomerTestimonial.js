@@ -4,7 +4,7 @@ import Emmanuel from "../image/Emmanuel.JPG"
 import Adetola from "../image/Adetola.JPG"
 import './MainStyle.css';
 
- function Customer_Testimonial() {
+ function CustomerTestimonial() {
   return (
      
     <div className="row" style={{marginLeft:"10rem"}}>
@@ -104,7 +104,7 @@ import './MainStyle.css';
 
   )
  }
- export default  Customer_Testimonial;
+ export default  CustomerTestimonial;
 
 
 

@@ -1,27 +1,12 @@
 import React from 'react'
-import Temi from "../image/Temi.JPG"
-import PromiseEjiofor from "../image/PromiseEjiofor.JPG";
-import feyisola from "../image/Adetola.JPG";
-
-// import JosephIke from "../image/josephIke.JPG"
-// import Emmanuel from "../image/Emmanuel.JPG"
-// import Adetola from "../image/Adetola.JPG"
-import './MainStyle.css';
+import Karen from "../image/Karen.JPG"
+import Oluchi from "../image/Oluchi.JPG"
+import Amose from "../image/Amose.JPG"
 
 
-
-
-function Vendor_Experience() {
+ function VendorSecondExperience() {
   return (
-
-
-
-
-
-
-
-
-
+    
 
 
 
@@ -30,12 +15,12 @@ function Vendor_Experience() {
         <div className="card-content">
             <div class="card-body p-0">
 
-                <div className="profile mb-4 mt-3">   <img src={Temi} alt="josephIke" /> </div>
-                <span className="name">Joseph Ike</span>
+                <div className="profile mb-4 mt-3">   <img src={Karen} alt="Karen" /> </div>
+                <span class="name">Karen Ibeh</span>
                  <div className="_row">
                 
-                    <div className="column">In Ikeja</div>
-                        <div className="column" id="customer"> CUSTOMER.</div><br/>
+                
+                        <div className="column" id="customer"> Vendor.</div><br/>
                  </div>
                 <div class="card-subtitle">
                     <p> <small className="text-muted"> <i className="fas fa-quote-left"></i> 
@@ -66,12 +51,12 @@ function Vendor_Experience() {
     <div className="card col-md-3 col-11 second" style={{float:"left"}}>
         <div className="card-content">
             <div className="card-body p-0">
-                <div className="profile mb-4 mt-3"><img src={PromiseEjiofor} alt="PromiseEjiofor" /></div>
-                <span className="name">Adetola Fashina</span>
+                <div className="profile mb-4 mt-3"><img src={Oluchi} alt="Oluchi" /></div>
+                <span class="name">Oluchi Uzo</span>
                 <div class="_row">
                
-                   <div className="column">Ibedan</div>
-                    <div className="column" id="customer"> CUSTOMER.</div><br/>
+                   
+                    <div className="column" id="customer"> Vendor.</div><br/>
                       
                 </div>
                 <div className="card-subtitle">
@@ -95,12 +80,12 @@ function Vendor_Experience() {
     <div class="card col-md-3 col-11 third">
         <div className="card-content">
             <div className="card-body p-0">
-                <div className="profile mb-4 mt-3">  <img src={feyisola} alt="Emmanuel" /></div>
-                <span className="name">Joseph Ike</span>
+                <div className="profile mb-4 mt-3">  <img src={Amose} alt="Amose" /></div>
+                <span className="name">Amose</span>
                 <div className="_row">
                
                    <div className="column">In Akoka</div>
-                       <div className="column" id="customer"> CUSTOMER.</div><br/>
+                       <div className="column" id="customer">Vendor.</div><br/>
                 </div>
                 <div className="card-subtitle">
                     <p> <small className="text-muted"> <i className="fas fa-quote-left"></i> 
@@ -119,26 +104,11 @@ function Vendor_Experience() {
     </div>
 </div>
 
+ 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  )
+ )
 }
 
 
-export default Vendor_Experience;
+export default  VendorSecondExperience;

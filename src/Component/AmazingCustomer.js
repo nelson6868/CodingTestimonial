@@ -4,12 +4,11 @@ import firstImage from "../image/firstImage.JPG"
 
 
 
-  function Amazing_Customer() {
+  function AmazingCustomer() {
   return (
     
 
 
-    // <First section> 
    
     <div class="row">
         <div class="column"> 
@@ -44,4 +43,4 @@ import firstImage from "../image/firstImage.JPG"
 }
 
 
-export  default Amazing_Customer;
+export  default AmazingCustomer;

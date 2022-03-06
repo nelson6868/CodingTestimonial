@@ -5,7 +5,7 @@ import Adetola from "../image/Adetola.JPG"
 import './MainStyle.css'
 
 
- function Customer_Second_Testimonial() {
+ function CustomerSecondTestimonial() {
   return (
     <div className="row" style={{marginLeft:"10rem"}}>
     <div className="card col-md-3 col-11"  style={{float:"left"}}>
@@ -103,4 +103,4 @@ import './MainStyle.css'
 
   )
 }
-export default Customer_Second_Testimonial;
+export default CustomerSecondTestimonial;

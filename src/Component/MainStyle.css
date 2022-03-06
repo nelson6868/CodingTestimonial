@@ -59,6 +59,7 @@ body {
     display: flex;
     background-color:#222222;
     width: 100% !important;
+    color: white !important;
   }
   .row3 {
     display: flex;
@@ -98,11 +99,51 @@ body {
 
   .feedback{
     font-size:10px !important;
-    font-weight:bold !important;
+    /* font-weight:bold !important; */
     color:#393655 !important;
     margin-right:1rem !important;
     margin-top:1rem;
   }
+  .amazingExperience{
+    color:white;
+    text-align: justify;
+    font-size: 34px;
+    font-weight: bold;
+
+  }
+  .customer1{
+    border-radius: 7px;
+    text-align: center;
+    width: 150px;
+    height: 60px;
+    background-color:burlywood;
+  }
+  
+  .amazingExperience1{
+    color:black;
+    text-align: justify;
+    font-size: 34px;
+    font-weight: bold;
+
+  }
+  .customer{
+    border-radius: 7px;
+    text-align: center;
+    width: 150px;
+    height: 60px;
+    background-color:burlywood;
+  }
+  
+
+
+  .feedbackAmazingExperience{
+    font-size:20px !important;
+    font-weight:bold !important;
+    color:#fff !important;
+    margin-right:1rem !important;
+    margin-top:1rem;
+  }
+
    .feedback2{
     font-size:10px !important;
 
@@ -113,21 +154,24 @@ body {
   }
 .form{
   background-color: darkgrey;
-  width:80%;
-  height:4rem;
+  width:90%;
+  height:5rem;
+  margin-top: 3rem;
 }
 input{
   margin-top:1rem;
-   width:80%;
-   height:3rem;
+   width:100%;
+   height:2rem;
+   margin-right: 43rem;
    border-radius:3px;
+ 
 }
 .btn{
   background-color: #fff;
   text-transform: uppercase;
   margin-top:0.4rem;
   color:black;
-  width:50%;
+  width:80%;
   height:3rem;
   border-radius:4px;
 

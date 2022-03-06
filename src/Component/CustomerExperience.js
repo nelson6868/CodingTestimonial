@@ -1,7 +1,7 @@
 import React from 'react'
 import './MainStyle.css'
 
-export default function Customer_Experience() {
+export default function CustomerExperience() {
   return (
    
 
@@ -12,7 +12,7 @@ export default function Customer_Experience() {
             <div className="column"> 
                
                   
-                <span className="amazing">Amazing</span><br/>
+                <span className="amazing">mazing</span><br/>
                 <span className="amazing2">Experiences from our</span><br/>
                 <span className="amazing">Customers</span><br/>
 
@@ -30,4 +30,4 @@ export default function Customer_Experience() {
 }
 
 
-export default Customer_Experience;
+export default CustomerExperience;
