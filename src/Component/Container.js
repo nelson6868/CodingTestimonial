@@ -6,6 +6,7 @@ import CustomerSecondTestimonial from "./CustomerSecondTestimonial";
 import CustomerFeedBack from './CustomerFeedBack';
 import VendorExperience from './VendorExperience';
 import VendorSecondExperience from "./VendorSecondExperience";
+import  BeOurMember from "./BeOurMember"
 import Footer from "./Footer";
 import './MainStyle.css'
 
@@ -19,6 +20,7 @@ import './MainStyle.css'
          <CustomerFeedBack/>
          <VendorExperience/>
          <VendorSecondExperience/>
+         < BeOurMember/>
          <Footer/>
     </div>
   )

@@ -1,13 +1,13 @@
 import React from 'react'
 import './MainStyle.css'
-import  BeOurMember from "./BeOurMember"
+
 
  function Footer() {
   return (
  
 
     <div class="footer">
-        < BeOurMember/>
+      
 <div class="footer_row2">
             <div class="footer_column">
                 <p>Company</p>
